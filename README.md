@@ -5,7 +5,7 @@ In this project, I have established synchronous communication between multiple s
   To make these services I used - 
   Technology – Spring Boot, IntelliJ and Language – Java
   
-In this project, there are 3 services, and each service has its own functionality to perform.
+In this project, there are 3 services, and each service has its own functionality to perform. The aim of this project is to display the book's rating on the browser using the basic concepts of microservice architecture.
   
   1. book-catalog-service is main service since it is responsible to call other services. And after establishing the connection with a couple of other services, it is        combining the output and displays it on the browser. Models contain the getters and setters information and Resources contains the Main file -                            https://github.com/Parth789456/Microservices/blob/main/book-catalog-service/target/classes/io/ms/bookcatalogservice/resources/BookCatalogResource.class 
   
