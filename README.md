@@ -3,7 +3,7 @@
 In this project, I have established synchronous communication between multiple services.
 
   To make these services I used - 
-  Technology – Spring Boot, IntelliJ & Language – Java
+  Technology – Spring Boot, IntelliJ and Language – Java
   
 In this project, there are 3 services, and each service has its own functionality to perform.
   
