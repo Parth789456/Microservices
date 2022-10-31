@@ -1,12 +1,16 @@
 # Microservices
-A service which will communicate with each other and show their content.
 
+In this project, I have established synchronous communication between multiple services.
 
-1. book-catalog-service main service che. jema thi hu baki ne 2 service (rating-data-service & book-info-service) ne call karu chu
+  To make these services I used - 
+  Technology – Spring Boot, IntelliJ 
+  Language – Java
+  
+In this project, there are 3 services, and each service has its own functionality to perform.
+  
+  1. book-catalog-service is main service since it is responsible to call other services. And after establishing the connection with a couple of other services, it is          combining the output and displays it on the browser. Models contain the getters and setters information and Resources contains the Main file -                        https://github.com/Parth789456/Microservices/blob/main/book-catalog-                                                                                                      service/target/classes/io/ms/bookcatalogservice/resources/BookCatalogResource.class 
+  
+  2. rating-data-service, will display the information of book id and ratings. Whereas information in resources and model packages remains the same                            https://github.com/Parth789456/Microservices/tree/main/ratings-data-service/target/classes/io/ms/ratingsdataservice
 
-
-2. initially, me rating-data-service & book-info-service na resources and packages book-catalog-service ma add kariya
-  this path - https://github.com/Parth789456/Microservices/tree/main/book-catalog-service/target/classes/io/ms/bookcatalogservice/models
-
-3. Main java file je rating-data-service & book-info-service ne call kre che on below path - 
-  this path - https://github.com/Parth789456/Microservices/blob/main/book-catalog-service/target/classes/io/ms/bookcatalogservice/resources/BookCatalogResource.class
+  3. book-info-service, will bring the information of book id and book name. Whereas information in resources and model packages remains the same 
+     https://github.com/Parth789456/Microservices/tree/main/book-info-service/target/classes/io/ms/bookinfoservice
